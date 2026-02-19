@@ -1,2 +1,9 @@
 # Enterprise-Active-Directory-Lab-With-Security-Controls
 A mini enterprise Active Directory lab built with Windows Server 2022 and four Windows 11 clients. Includes OUs, users, groups, shared resources, and security-focused GPOs to simulate a real corporate environment and demonstrate enterprise security hardening.
+
+The purpose of this Lab was to further understand the Active Directory framework along with how to implement security controls in a real world enviroment. 
+
+Enterprise Active Directory Lab with Security Controls
+This repository documents a fully built enterprise-style Active Directory environment designed for hands-on learning, security experimentation, and portfolio demonstration. The lab consists of four Windows 11 virtual machines and one Windows Server 2022 virtual machine acting as the Domain Controller, all running inside Oracle VirtualBox.
+The goal of this project is to simulate a realistic corporate network and showcase core competencies in Windows Server administration, domain management, and enterprise security hardening. Within this environment, I designed a structured Active Directory hierarchy that includes Organizational Units (OUs), department-based user accounts, security groups, and shared network resources. Each Windows 11 workstation represents a different department—Finance, Human Resources, Accounting, and IT—to mirror how real organizations segment users and apply tailored access controls.
+Group Policy Objects (GPOs) were created and applied to enforce security baselines, restrict unnecessary functionality, configure audit policies, and manage user experience across departments. Additional security controls such as NTFS permissions, AppLocker rules, and granular audit configurations were implemented to strengthen the environment and demonstrate practical defensive techniques.
